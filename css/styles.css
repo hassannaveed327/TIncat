@@ -1,0 +1,149 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* headers */
+.p {
+  color: #8f8f8f;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-left: 150px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: "Montserrat-bolder";
+  margin-top: 5%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat-bold";
+}
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+.button-download {
+  display: inline-block;
+  margin: 2% 3% 2% 200px;
+}
+/* title */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.fstuff {
+  display: inline-block;
+}
+
+.title-png {
+  width: 17%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.store-icons{
+  margin: 5px;
+}
+@media (max-width:1000px){
+
+        #title{
+          text-align: center;
+        }
+        .title-png{
+          width:30%;
+          position: static;
+          transform: rotate(0);
+          margin-left: 10%;
+        }
+}
+/* features */
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.row {
+  padding:100px;
+}
+
+.icons {
+  font-size: 4rem;
+  color: #ef8172;
+  margin: 1rem;
+}
+
+/* -- Testimonials --> */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image {
+  width: 15%;
+  border-radius: 120%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-img {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+.price-text{
+
+}
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  font-family: "Montserrat-Black";
+  padding: 7% 15%
+}
+.cta-txt{
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 3%;
+}
+/* footer */
+.brands{
+  display: inline-block;
+}
